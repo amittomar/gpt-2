@@ -12,7 +12,7 @@ import argparse
 #         n_layer=12,
 #     )
 
-def default_hdparams():
+def default_hparams():
     parser = argparse.ArgumentParser()
     argparse.add_argument('--n_vocab', type=int, default=0)
     argparse.add_argument('--n_ctx', type=int, default=1024)
